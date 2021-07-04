@@ -398,10 +398,22 @@ body{
 .col5{
     flex:1;
     margin-top:75px
+    display:flex;
+    justify-content:space-around;
 }
-.mountain-background{
-    background: url('./images//bg-curvy-desktop.svg');
-    position: absolute;
+.col5-icon{
+    margin-top:75px;
+    display:inline-block;
+}
+.icon{
+    border:0.1em solid white;
+    height:14px;
+    width:14px;
+    border-radius:7px;
+    text-align:center;
+    align-content:center;
+    float:left;
+    margin-right:5px;
 }
 .intro{
     display:flex;
@@ -445,6 +457,7 @@ input[type=email] {
 .box-21{
     flex:1;
 }
+
 @media screen and(max-width: 343px){
     .header{
         background-color:  hsl(218, 28%, 13%);
