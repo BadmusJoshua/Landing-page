@@ -397,7 +397,7 @@ body{
 }
 .col5{
     flex:1;
-    margin-top:75px;
+    /* margin-top:75px; */
     display:flex;
     justify-content:space-around;
 }
